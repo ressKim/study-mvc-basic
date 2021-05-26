@@ -1,6 +1,7 @@
 package hello.springmvc.basic.requestMapping;
 
 import org.springframework.web.bind.annotation.*;
+
 @RestController
 @RequestMapping("/mapping/users")
 public class MappingClassController {
@@ -12,7 +13,6 @@ public class MappingClassController {
      * 회원 조회 : GET "/users/{userId}
      * 회원 수정 : PATCH "/users/{userId}
      * 회원 삭제 : DELETE "users/{userId}
-
      */
 
     @GetMapping
